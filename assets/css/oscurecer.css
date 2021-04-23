@@ -1,0 +1,32 @@
+.oscurecer {
+  filter: brightness(60%);
+}
+
+.sobre {
+  filter: brightness(110%);
+  position:absolute;
+  top:80px;
+  left:250px;
+  border:none;
+ }
+ .boton {
+  filter: brightness(110%);
+  position:absolute;
+  top:350px;
+  left:550px;
+  border:none;
+ }
+ .sobre2 {
+  filter: brightness(140%);
+  position:absolute;
+  top: 650px;0px;
+  left:950px;
+  border:none;
+ }
+ .sobre3 {
+  filter: brightness(140%);
+  position:absolute;
+  top: 650px;0px;
+  left:950px;
+  border:none;
+ }
