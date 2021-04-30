@@ -1,0 +1,14 @@
+$transition-collapse:         
+height .35s ease;
+
+.collapse {
+    &:not(.show) {
+      display: none;
+    }
+  }
+  
+  .collapsing {
+    height: 0;
+    overflow: visible;
+    @include transition($transition-collapse);
+  }
