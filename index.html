@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -11,9 +11,8 @@
 </head>
 
 <body>
-
     <div class="container-sm">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <nav class="navbar navbar-expand-xl navbar-dark bg-primary">
 
             <a class="navbar-brand" href="#">Onix Hotel</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -23,42 +22,33 @@
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Inicio<span class="sr-only">(current)</span></a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#SobreNosotros">Sobre Nosotros<span class="sr-only">(current)</span></a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Servicios
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Servicio 1</a>
-                            <a class="dropdown-item" href="#">Servicio 2</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Servicio 3</a>
-                        </div>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Comodidades">Comodidades<span class="sr-only"></span></a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Habitaciones
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Habitación Princpal</a>
-                            <a class="dropdown-item" href="#">Habitación con vista al mar</a>
-
-                            <a class="dropdown-item" href="#">Habitación Matrimonial</a>
-                        </div>
+                            
+                       
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Habitaciones">Habitaciones<span class="sr-only"></span></a>
+                    </li>
                     <li class="nav-item">
                         <a class="nav-link"
                             href="C:\Users\ALEXANDRA Y CRISTIAN\Documents\GitHub\Hotel_Onix\FORMULARIOWEB.HTML">Registrate<span
                                 class="sr-only"></span></a>
                     </li>
+                    
                 </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                  </form>
+               </div>
         </nav>
 
         <header>
-
             <div id="HotelOnix" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
                     <li data-target="#HotelOnix" data-slide-to="0" class="active"></li>
@@ -85,14 +75,7 @@
                     <span class="sr-only">Next</span>
                 </a>
                 <img class="sobre" src="assets/img/logo-onix-1.png" alt="" height="300px" width="600px">
-
-
-                <!--
-<button type="button" class="boton btn btn-primary btn-lg">CONÓCENOS</button>-->
-
             </div>
-
-
 
             <div>
                 <img src="assets/img/carrouselh5.jpg" alt="" height="500px" width="1110px">
@@ -101,7 +84,7 @@
 
             <div class="sobre3 card border-primary mb-4 bg-transparent" style="max-width: 18rem;">
 
-                <div class="card-body text-light">
+                <div id="SobreNosotros" class="card-body text-light">
                     <h3 class="card-title text-primary">Sobre Nosotros</h3>
                     <p class="card-text text-justify text-light">Está a tan sólo 50 metros del centro de la
                         ciudad. Dispone de alojamiento con desayuno,
@@ -119,134 +102,140 @@
         <script src="assets/js/jquery-3.6.0.min.js"></script>
         <script src="assets/js/popper.min.js"></script>
         <script src="assets/js/bootstrap.js"></script>
+        <section>
+            <div id="Habitaciones">
+                <h1 class="text-primary">
+                    Habitaciones
 
-        <h1 class="text-primary">
-            Habitaciones
+                </h1>
+            </div>
 
-        </h1>
+            <div class="card-group">
+                <div class="card">
+                    <img src="assets/img/4.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
 
-        <div class="card-group">
-            <div class="card">
-                <img src="assets/img/4.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
+                        <div id="colapso1" class="collapse">
+                            <div class="card card-body">
+                                <h5 class="card-title text-center">Habitación Doble</h5>
+                                <p class="text-justify">
+                                    pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
+                                    squid. Nihil
+                                    anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea
+                                    proident.
+                                </p>
+                            </div>
+                        </div>
+                        <button class="sobre_habitaciones btn btn-primary" type="button" data-toggle="collapse"
+                            data-target="#colapso1" aria-expanded="false" aria-controls="collapseExample">Habitación
+                            Doble</button>
 
-                    <div id="colapso1" class="collapse">
-                        <div class="card card-body">
-                            <h5 class="card-title text-center">Habitación Doble</h5>
-                            <p class="text-justify">
-                                pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
-                                squid. Nihil
-                                anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea
-                                proident.
-                            </p>
+
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="assets/img/dobleconterraza.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <div id="colapso2" class="collapse">
+                            <div class="card card-body">
+                                <h5 class="card-title text-center">Habitación Con Terraza</h5>
+                                <p class="text-justify">
+                                    pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
+                                    squid. Nihil
+                                    anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea
+                                    proident.
+                                </p>
+                            </div>
+                        </div>
+                        <button class="sobre_habitaciones btn btn-primary" type="button" data-toggle="collapse"
+                            data-target="#colapso2" aria-expanded="false" aria-controls="collapseExample">Habitación Con
+                            Terraza</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="assets/img/triple.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <div id="colapso3" class="collapse">
+                            <div class="card card-body">
+                                <h5 class="card-title text-center">Habitación Triple</h5>
+                                <p class="text-justify">
+                                    pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
+                                    squid. Nihil
+                                    anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea
+                                    proident.
+                                </p>
+                            </div>
+                        </div>
+                        <button class="sobre_habitaciones btn btn-primary" type="button" data-toggle="collapse"
+                            data-target="#colapso3" aria-expanded="false" aria-controls="collapseExample">Habitación
+                            Triple</button>
+
+                    </div>
+                </div>
+            </div>
+            <div id="Comodidades">
+                <h1 class="text-primary">
+                    Comodidades
+
+                </h1>
+            </div>
+            <div class="row">
+
+                <div class="col-sm-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="assets/img/Restaurantes.jpg" class="card-img-top" alt="...">
+                            <h5 class="card-title btn-outline-primary text-center">Restaurantes</h5>
+
+                            <p class="card-text text-justify">Ofrece gran diversidad de platos
+                                elaborados con productos de proximidad
+                                de la mejor calidad, desde los platos más
+                                tradicionales del país, hasta los más
+                                convencionales de la cocina internacional.</p>
                         </div>
                     </div>
-                    <button class="sobre_habitaciones btn btn-primary" type="button" data-toggle="collapse"
-                        data-target="#colapso1" aria-expanded="false" aria-controls="collapseExample">Habitación
-                        Doble</button>
-
-
                 </div>
-            </div>
-            <div class="card">
-                <img src="assets/img/dobleconterraza.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <div id="colapso2" class="collapse">
-                        <div class="card card-body">
-                            <h5 class="card-title text-center">Habitación Con Terraza</h5>
-                            <p class="text-justify">
-                                pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
-                                squid. Nihil
-                                anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea
-                                proident.
-                            </p>
+                <div class="col-sm-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="assets/img/actividades.jpg" class="card-img-top" alt="...">
+                            <h5 class="card-title btn-outline-primary text-center">Actividades</h5>
+                            <p class="card-text text-justify">Un entorno natural incomparable unido a
+                                una amplia oferta de servicios le
+                                permitirán practicar una gran variedad de
+                                deportes aptos para todos los niveles.</p>
                         </div>
                     </div>
-                    <button class="sobre_habitaciones btn btn-primary" type="button" data-toggle="collapse"
-                        data-target="#colapso2" aria-expanded="false" aria-controls="collapseExample">Habitación Con
-                        Terraza</button>
                 </div>
-            </div>
-            <div class="card">
-                <img src="assets/img/triple.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <div id="colapso3" class="collapse">
-                        <div class="card card-body">
-                            <h5 class="card-title text-center">Habitación Triple</h5>
-                            <p class="text-justify">
-                                pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
-                                squid. Nihil
-                                anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea
-                                proident.
-                            </p>
+                <div class="col-sm-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="assets/img/terrazas.jpg" class="card-img-top" alt="...">
+                            <h5 class="card-title btn-outline-primary text-center">Terrazas</h5>
+                            <p class="card-text text-justify">Un refresco o un vermut a cualquier hora
+                                del dia, o bien un “cremat” al atardecer en la
+                                magnífica terraza, contemplando el reflejo
+                                de la luna sobre el mar, harán de su
+                                estancia una experiencia única.</p>
                         </div>
                     </div>
-                    <button class="sobre_habitaciones btn btn-primary" type="button" data-toggle="collapse"
-                        data-target="#colapso3" aria-expanded="false" aria-controls="collapseExample">Habitación
-                        Triple</button>
-
                 </div>
             </div>
-        </div>
-        <h1 class="text-primary">
-            Comodidades
+            <br><br>
+            <div>
+                <img src="assets/img/hotel atardecer.jpg" alt="" height="500px" width="1110px">
 
-        </h1>
-
-        <div class="row">
-
-            <div class="col-sm-4">
-                <div class="card">
-                    <div class="card-body">
-                        <img src="assets/img/Restaurantes.jpg" class="card-img-top" alt="...">
-                        <h5 class="card-title btn-outline-primary text-center">Restaurantes</h5>
-
-                        <p class="card-text text-justify">Ofrece gran diversidad de platos
-                            elaborados con productos de proximidad
-                            de la mejor calidad, desde los platos más
-                            tradicionales del país, hasta los más
-                            convencionales de la cocina internacional.</p>
-                    </div>
-                </div>
             </div>
-            <div class="col-sm-4">
-                <div class="card">
-                    <div class="card-body">
-                        <img src="assets/img/actividades.jpg" class="card-img-top" alt="...">
-                        <h5 class="card-title btn-outline-primary text-center">Actividades</h5>
-                        <p class="card-text text-justify">Un entorno natural incomparable unido a
-                            una amplia oferta de servicios le
-                            permitirán practicar una gran variedad de
-                            deportes aptos para todos los niveles.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-4">
-                <div class="card">
-                    <div class="card-body">
-                        <img src="assets/img/terrazas.jpg" class="card-img-top" alt="...">
-                        <h5 class="card-title btn-outline-primary text-center">Terrazas</h5>
-                        <p class="card-text text-justify">Un refresco o un vermut a cualquier hora
-                            del dia, o bien un “cremat” al atardecer en la
-                            magnífica terraza, contemplando el reflejo
-                            de la luna sobre el mar, harán de su
-                            estancia una experiencia única.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <br><br>
-        <div>
-            <img src="assets/img/hotel atardecer.jpg" alt="" height="500px" width="1110px">
-
-        </div>
 
     </div>
+    </section>
 
 
 
     <footer>
-        jajsdalksd
+        <div class="container-sm">
+            <h1>Acá va lo de Thomas</h1>
+        </div>
     </footer>
 
 
