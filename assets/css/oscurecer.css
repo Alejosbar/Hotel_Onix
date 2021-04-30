@@ -30,3 +30,10 @@
   left:950px;
   border:none;
  }
+ .sobre_habitaciones {
+  filter: brightness(110%);
+  position:absolute;
+  top:180px;
+  left:250px;
+  border:none;
+ }
