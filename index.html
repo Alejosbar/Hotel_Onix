@@ -7,48 +7,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/bootstrap.css">
     <link rel="stylesheet" href="assets/css/oscurecer.css">
+    <link rel="stylesheet" href="assets/css/sweetalert2.min.css">
+    <link rel="shortcut icon" href="#" />
+
     <title>Hotel Onix</title>
 </head>
 
 <body>
+    <script src="assets/js/formulario.js"></script>
     <div class="container-sm">
         <nav class="navbar navbar-expand-xl navbar-dark bg-primary">
-
             <a class="navbar-brand" href="#">Onix Hotel</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#SobreNosotros">Sobre Nosotros<span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="#SobreNosotros">Sobre Nosotros<span
+                                class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#Comodidades">Comodidades<span class="sr-only"></span></a>
-                    </li>
-                            
-                       
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#Habitaciones">Habitaciones<span class="sr-only"></span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link"
-                            href="C:\Users\ALEXANDRA Y CRISTIAN\Documents\GitHub\Hotel_Onix\FORMULARIOWEB.HTML">Registrate<span
+                        <a class="nav-link" data-toggle="collapse" data-target="#colapso4" aria-expanded="false"
+                            aria-controls="collapseExample"
+                            href="C:\Users\Alejosbar\Desktop\Pagina web Onix\FORMULARIOWEB.HTML">Registrate<span
                                 class="sr-only"></span></a>
                     </li>
-                    
                 </ul>
                 <form class="d-flex">
                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                     <button class="btn btn-outline-success" type="submit">Search</button>
-                  </form>
-               </div>
+                </form>
+            </div>
         </nav>
-
         <header>
+            <form id="colapso4" action="#" class="collapse formulario">
+                <h1 class="formulario__titulo">Contáctenos</h1>
+                <input id="Nombres" type="text" placeholder="Nombres" class="formulario__input">
+                <label for="" class="formulario__label"></label>
+                <input id="Correo" type="text" placeholder="Correo" class="formulario__input">
+                <label for="" class="formulario__label"></label>
+                <input id="Telefono" type="text" placeholder="Teléfono" class="formulario__input">
+                <label for="" class="formulario__label"></label>
+                <input id="Mensaje" type="text" placeholder="Mensaje" class="formulario__input">
+                <label for="" class="formulario__label"></label>
+                <input onclick="formulario()" id="btn2" type="submit" class="formulario__submit bg-primary">
+                <script src="assets/js/jquery-3.6.0.min.js"></script>
+                <script src="assets/js/sweetalert2.all.min.js"></script>
+            </form>
             <div id="HotelOnix" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
                     <li data-target="#HotelOnix" data-slide-to="0" class="active"></li>
@@ -76,14 +89,10 @@
                 </a>
                 <img class="sobre" src="assets/img/logo-onix-1.png" alt="" height="300px" width="600px">
             </div>
-
             <div>
                 <img src="assets/img/carrouselh5.jpg" alt="" height="500px" width="1110px">
-
             </div>
-
             <div class="sobre3 card border-primary mb-4 bg-transparent" style="max-width: 18rem;">
-
                 <div id="SobreNosotros" class="card-body text-light">
                     <h3 class="card-title text-primary">Sobre Nosotros</h3>
                     <p class="card-text text-justify text-light">Está a tan sólo 50 metros del centro de la
@@ -96,7 +105,6 @@
                     <a href="" class="btn btn-primary">Leer Más</a>
                 </div>
             </div><br><br><br>
-
             <div>
         </header>
         <script src="assets/js/jquery-3.6.0.min.js"></script>
@@ -106,15 +114,12 @@
             <div id="Habitaciones">
                 <h1 class="text-primary">
                     Habitaciones
-
                 </h1>
             </div>
-
             <div class="card-group">
                 <div class="card">
                     <img src="assets/img/4.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-
                         <div id="colapso1" class="collapse">
                             <div class="card card-body">
                                 <h5 class="card-title text-center">Habitación Doble</h5>
@@ -129,8 +134,6 @@
                         <button class="sobre_habitaciones btn btn-primary" type="button" data-toggle="collapse"
                             data-target="#colapso1" aria-expanded="false" aria-controls="collapseExample">Habitación
                             Doble</button>
-
-
                     </div>
                 </div>
                 <div class="card">
@@ -169,24 +172,20 @@
                         <button class="sobre_habitaciones btn btn-primary" type="button" data-toggle="collapse"
                             data-target="#colapso3" aria-expanded="false" aria-controls="collapseExample">Habitación
                             Triple</button>
-
                     </div>
                 </div>
             </div>
             <div id="Comodidades">
                 <h1 class="text-primary">
                     Comodidades
-
                 </h1>
             </div>
             <div class="row">
-
                 <div class="col-sm-4">
                     <div class="card">
                         <div class="card-body">
                             <img src="assets/img/Restaurantes.jpg" class="card-img-top" alt="...">
                             <h5 class="card-title btn-outline-primary text-center">Restaurantes</h5>
-
                             <p class="card-text text-justify">Ofrece gran diversidad de platos
                                 elaborados con productos de proximidad
                                 de la mejor calidad, desde los platos más
@@ -224,21 +223,17 @@
             <br><br>
             <div>
                 <img src="assets/img/hotel atardecer.jpg" alt="" height="500px" width="1110px">
-
             </div>
-
     </div>
     </section>
-
-
-
     <footer>
         <div class="container-sm">
             <h1>Acá va lo de Thomas</h1>
         </div>
     </footer>
+</body>
 
-
+</html>
 
 
 </body>
