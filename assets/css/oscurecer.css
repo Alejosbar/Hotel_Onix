@@ -55,6 +55,14 @@ body {
   border: none;
 }
 
+  .fijar {
+        margin-top: -135px;
+    }
+
+
+
+
+
 .oscurecer {
   filter: brightness(30%);
 }
@@ -76,14 +84,14 @@ body {
  .sobre2 {
   filter: brightness(140%);
   position:absolute;
-  top: 650px;0px;
+  top: 650px;
   left:950px;
   border:none;
  }
  .sobre3 {
   filter: brightness(140%);
   position:absolute;
-  top: 650px;0px;
+  top: 650px;
   left:950px;
   border:none;
  }
