@@ -142,8 +142,6 @@ function formulario() {
 
 
   if (Nombres != "" && Correo != "" && Telefono != "" && Mensaje != "") {
-
-
     $("#btn2").click(function () {
 
       Swal.fire({
@@ -152,9 +150,6 @@ function formulario() {
         text: 'Su información ha sido enviada correctamente',
       });
     });
-
-
-
   }
   else {
 
@@ -170,7 +165,74 @@ function formulario() {
   }
 }
 
+$("#btn7").click(function () {
+  Swal.mixin({
+    input: 'text', //puede ser text, number, email, password, textarea, select, radio
+    confirmButtonText: 'Siguiente &rarr;',
+    showCancelButton: true,
+    progressSteps: ['1', '2', '3']
+  }).queue([
+    {
+      title: 'Pregunta 1',
+      text: '¿Color favorito?'
+    },
+    {
+      title: 'Pregunta 2',
+      text: '¿Animal favorito?'
+    },
+    {
+      title: 'Pregunta 3',
+      text: '¿País de origen?'
+    }
+  ]).then((result) => {
+    if (result.value) {
+      Swal.fire({
+        title: '¡Completado!',
+        html:
+          'Tus respuestas: <pre><code>' +
+          JSON.stringify(result.value) +
+          '</code></pre>',
+        confirmButtonText: 'Ok'
+      })
+    }
+  });
+});
 
+function formularioalerta() {
+  $("#btn7").click(function () {
+    Swal.mixin({
+      input: 'text', //puede ser text, number, email, password, textarea, select, radio
+      confirmButtonText: 'Siguiente &rarr;',
+      showCancelButton: true,
+      progressSteps: ['1', '2', '3']
+    }).queue([
+      {
+        title: 'Pregunta 1',
+        text: '¿Nombres y Apellidos?'
+      },
+      {
+        title: 'Pregunta 2',
+        text: '¿Qué tipo de Habitación desea?'
+      },
+      {
+        title: 'Pregunta 3',
+        text: '¿País de origen?'
+      }
+    ]).then((result) => {
+      if (result.value) {
+        Swal.fire({
+          title: '¡Su habitación ha sido reservada!',
+          html:
+            'Tus respuestas: <pre><code>' +
+            JSON.stringify(result.value) +
+            '</code></pre>',
+          confirmButtonText: 'Ok'
+        })
+      }
+    });
+  });
+
+}
 
 
 

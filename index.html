@@ -15,7 +15,7 @@
 
 <body style="background-color:#c4c2c2;">
     <script src="assets/js/formulario.js"></script>
-    <div>
+    <div id="barranav">
 
         <nav class="navbar navbar-expand-xl navbar-dark bg-primary">
             <a class="navbar-brand" href="#">Onix Hotel</a>
@@ -39,7 +39,7 @@
                     <li class="nav-item">
                         <a class="nav-link" data-toggle="collapse" data-target="#colapso4" aria-expanded="false"
                             aria-controls="collapseExample"
-                            href="C:\Users\Alejosbar\Desktop\Pagina web Onix\FORMULARIOWEB.HTML">Registrate<span
+                            href="#">Registrate<span
                                 class="sr-only"></span></a>
                     </li>
                 </ul>
@@ -55,7 +55,7 @@
 
         <header>
             <form id="colapso4" action="#" class="collapse formulario">
-                <h1 class="formulario__titulo">Contáctenos</h1>
+                <h1  class="formulario__titulo text-primary">Contáctenos</h1>
                 <input id="Nombres" type="text" placeholder="Nombres" class="formulario__input">
                 <label for="" class="formulario__label"></label>
                 <input id="Correo" type="text" placeholder="Correo" class="formulario__input">
@@ -67,7 +67,7 @@
                 <input onclick="formulario()" id="btn2" type="submit" class="formulario__submit bg-primary">
                 <script src="assets/js/jquery-3.6.0.min.js"></script>
                 <script src="assets/js/sweetalert2.all.min.js"></script>
-            </form>
+            </form><br><br>
 
             <div id="HotelOnix" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
@@ -264,27 +264,28 @@
             <div class="row footer-llamada-accion">
                 <div class="col-3 d-flex justify-content-center align-items-center w-100"
                     style="flex-direction: column;">
-                    <h1><a href="#" class="badge btn-primary">Contácto <br><br> ¡Reserva ahora!</a></h1>
+                    
+                    <h1><a href="#c" onclick="formularioalerta()" id="btn7" class="badge btn-primary">Contácto <br><br> ¡Reserva ahora!</a></h1>
                 </div>
                 <div class="col-3 ">
                     <div class="row redes-onix">
                         <div class="col-12">
                             <img
-                                src="assets/img/Instagram.png" alt="" height="100px" width="100%">
+                                src="assets/img/Instagram.png" alt="" height="60px" width="100%">
                                
                         </div>
                         
                     </div>
                     <div class="row redes-onix">
                         <div class="col-12">
-                            <img src="assets/img/Facebook.png" alt="" height="100px" width="100%"
+                            <img src="assets/img/Facebook.png" alt="" height="60px" width="100%"
                                 alt="">
                         </div>
                         
                     </div>
                     <div class="row redes-onix">
                         <div class="col-12">
-                            <img src="assets/img/whatsapp.png" alt=""height="100px" width="100%" >
+                            <img src="assets/img/whatsapp.png" alt=""height="60px" width="100%" >
                         </div>
                         
                     </div>
@@ -293,13 +294,13 @@
                 <div class="col-3">
                     <div class="row redes-onix">
                         <div class="col-12">
-                            <img src="assets/img/contacto.png" alt=""height="100px" width="100%" >
+                            <img src="assets/img/contacto.png" alt=""height="60px" width="100%" >
                         </div>
                         <div class="col-12">
-                            <img src="assets/img/correo.png" alt=""height="100px" width="100%" >
+                            <img src="assets/img/correo.png" alt=""height="60px" width="100%" >
                         </div>
                         <div class="col-12">
-                            <img src="assets/img/Direccion.png" alt=""height="100px" width="100%" >
+                            <img src="assets/img/Direccion.png" alt=""height="60px" width="100%" >
                         </div>
 
                     </div>

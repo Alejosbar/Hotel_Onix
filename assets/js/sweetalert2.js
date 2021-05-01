@@ -75,7 +75,7 @@ $("#btn6").click(function(){
 //Progresivo
 $("#btn7").click(function(){
   Swal.mixin({
-    input: 'text', //puede ser text, number, email, password, textarea, select, radio
+        input: 'text', //puede ser text, number, email, password, textarea, select, radio
     confirmButtonText: 'Siguiente &rarr;',
     showCancelButton: true,
     progressSteps: ['1', '2', '3']

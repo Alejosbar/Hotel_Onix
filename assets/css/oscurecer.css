@@ -4,14 +4,14 @@
 body {
   margin: 0;
   font-family: sans-serif;
-}
+ }
 .formulario {
   width: 500px;
   max-width: 100%;
   margin: auto;
   margin-top: 30px;
   padding: 20px;
-  box-shadow: 0 0 20px 1px rgba(0,0,0,0.3);
+  box-shadow: 0 0 20px 1px rgba(39, 127, 243, 0.945);
   position: relative;
 }
 .formulario__titulo {
@@ -24,10 +24,12 @@ body {
   display: block;
   width: 100%;
   font-size: 1.3em;
+  
+  
 }
 .formulario__input {
     padding: 20px;
-  background: rgba(0,0,0,0.1);
+  background: rgb(255, 255, 255);
   border: 1px solid rgba(0,0,0,0.3);
   margin-bottom: 40px;
 }
@@ -52,11 +54,6 @@ body {
   cursor: pointer;
   border: none;
 }
-
-
-
-
-
 
 .oscurecer {
   filter: brightness(30%);
