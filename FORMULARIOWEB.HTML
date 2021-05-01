@@ -81,20 +81,7 @@
     }
 </style>
 
-<script>
 
-    var input = document.getElementsByClassName('formulario__input');
-    for (var i = 0; i < input.length; i++) {
-        input[i].addEventListener('keyup', function () {
-            if (this.value.length >= 1) {
-                this.nextElementSibling.classlist.add('fijar');
-            } else {
-                this.nextElementSibling.classlist.remove('fijar');
-            }
-        });
-    }
-
-</script>
 
 
 
@@ -124,7 +111,19 @@
 
         <input type="submit" class="formulario__submit">
     </form>
-
+    <script>
+        var inputs = document.getElementsByClassName('formulario__input');
+        for (var i = 0; i < inputs.length; i++) {
+            inputs[i].addEventListener('keyup', function () {
+                if (this.value.length >= 1) {
+                    this.nextElementSibling.classList.add('fijar');
+                } else {
+                    this.nextElementSibling.classList.remove('fijar');
+                }
+            });
+        }
+    
+    </script>
 </body>
 
 </html>
