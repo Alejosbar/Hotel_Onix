@@ -90,6 +90,10 @@ body {
   left:950px;
   border:none;
  }
+ .brillo {
+  filter: brightness(140%);
+  
+ }
  .sobre_habitaciones {
   filter: brightness(110%);
   position:absolute;
@@ -108,4 +112,10 @@ body {
   color: blue;
 }
 
+
+.navbar-nav.navbar-center {
+  position: absolute;
+  left: 50%;
+  transform: translatex(-50%);
+}
 

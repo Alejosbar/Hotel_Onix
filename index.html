@@ -13,9 +13,10 @@
     <title>Hotel Onix</title>
 </head>
 
-<body>
+<body style="background-color:#c4c2c2;">
     <script src="assets/js/formulario.js"></script>
-    <div class="container-sm">
+    <div>
+
         <nav class="navbar navbar-expand-xl navbar-dark bg-primary">
             <a class="navbar-brand" href="#">Onix Hotel</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -23,7 +24,8 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
+                <ul class="nav navbar-nav navbar-center">
+
                     <li class="nav-item">
                         <a class="nav-link" href="#SobreNosotros">Sobre Nosotros<span
                                 class="sr-only">(current)</span></a>
@@ -47,6 +49,10 @@
                 </form>
             </div>
         </nav>
+
+    </div>
+    <div class="container-sm">
+
         <header>
             <form id="colapso4" action="#" class="collapse formulario">
                 <h1 class="formulario__titulo">Contáctenos</h1>
@@ -62,6 +68,7 @@
                 <script src="assets/js/jquery-3.6.0.min.js"></script>
                 <script src="assets/js/sweetalert2.all.min.js"></script>
             </form>
+
             <div id="HotelOnix" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
                     <li data-target="#HotelOnix" data-slide-to="0" class="active"></li>
@@ -69,9 +76,12 @@
                     <li data-target="#HotelOnix" data-slide-to="2"></li>
                 </ol>
                 <div class="carousel-inner">
+                    
                     <div class="oscurecer carousel-item active">
                         <img src="assets/img/carrouselh1.jpg" class="d-block w-100" alt="...">
                     </div>
+                    
+                    
                     <div class="oscurecer carousel-item">
                         <img src="assets/img/carrouselh4.jpg" class="d-block w-100" alt="...">
                     </div>
@@ -87,25 +97,40 @@
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="sr-only">Next</span>
                 </a>
-                <img class="sobre" src="assets/img/logo-onix-1.png" alt="" height="300px" width="600px">
-            </div>
-            <div>
-                <img src="assets/img/carrouselh5.jpg" alt="" height="500px" width="1110px">
-            </div>
-            <div class="sobre3 card border-primary mb-4 bg-transparent" style="max-width: 18rem;">
-                <div id="SobreNosotros" class="card-body text-light">
-                    <h3 class="card-title text-primary">Sobre Nosotros</h3>
-                    <p class="card-text text-justify text-light">Está a tan sólo 50 metros del centro de la
-                        ciudad. Dispone de alojamiento con desayuno,
-                        Disfrute de este hospedaje en una habitación
-                        ideal para descansar y dormir en uno de los lugares
-                        más especiales como lo son, los hoteles de la ciudad ROMA . Donde podrás compartir con tu
-                        familia,
-                        amigos o en pareja de este paraiso donde tendrás una sensacion inafable.</p>
-                    <a href="" class="btn btn-primary">Leer Más</a>
+                
+                <img class="col-7 sobre d-flex" src="assets/img/logo-onix-1.png" alt="" height="300px" >      
+                    
+           
+            </div><br><br>
+
+
+                      
+            <div class="container">
+
+                <div class="row ">
+                    <div class="col-7 d-flex">
+                        <img src="assets/img/carrouselh5.jpg" class="" alt="..." width="177%">
+                    </div>
+                    <div class="col-5 d-flex justify-content-center align-items-center w-100">
+                        
+                        <div id="SobreNosotros" class="brillo card-body text-primary">
+                            <h3 class="card-title bg-transparent">Sobre Nosotros</h3>
+                            <p class="card-text text-justify text-light">Está a tan sólo 50 metros del centro de la
+                                ciudad. Dispone de alojamiento con desayuno,
+                                Disfrute de este hospedaje en una habitación
+                                ideal para descansar y dormir en uno de los lugares
+                                más especiales como lo son, los hoteles de la ciudad ROMA . Donde podrás compartir con
+                                tu
+                                familia,
+                                amigos o en pareja de este paraiso donde tendrás una sensacion inafable.</p>
+                            <a href="" class="btn btn-primary">Leer Más</a>
+                        </div>
+                  </div>
                 </div>
-            </div><br><br><br>
-            <div>
+
+            </div><br><br>
+
+        
         </header>
         <script src="assets/js/jquery-3.6.0.min.js"></script>
         <script src="assets/js/popper.min.js"></script>
@@ -175,6 +200,7 @@
                     </div>
                 </div>
             </div>
+            <br><br>
             <div id="Comodidades">
                 <h1 class="text-primary">
                     Comodidades
@@ -222,17 +248,19 @@
             </div>
             <br><br>
             <div>
-                <img src="assets/img/hotel atardecer.jpg" alt="" height="500px" width="1110px">
+                <img src="assets/img/hotel atardecer.jpg" alt="" height="500px" width="100%">
             </div>
     </div>
+    <br><br>
     </section>
     <footer>
+        <div class="progress">
+            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75"
+                aria-valuemin="0" aria-valuemax="100" style="width: 100%"></div>
+        </div>
 
         <div class="container">
-            <div class="progress">
-                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
-                    aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 100%"></div>
-            </div>
+
             <div class="row footer-llamada-accion">
                 <div class="col-3 d-flex justify-content-center align-items-center w-100"
                     style="flex-direction: column;">
@@ -286,19 +314,20 @@
                     </div>
                 </div>
                 <div class="col-3 d-flex justify-content-center align-items-center w-100">
-                    <img src="assets/img/logo-onix-2-futer.png" alt="">
+                    <img src="assets/img/logo-onix-1.png" alt="">
                 </div>
             </div>
-            <div class="progress">
-                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
-                    aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 100%"></div>
-            </div>
+
+        </div>
+        <div class="progress">
+            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75"
+                aria-valuemin="0" aria-valuemax="100" style="width: 100%"></div>
         </div>
 
         </div>
 
 
-    </footer>
+    </footer><br><br>
 </body>
 
 </html>
