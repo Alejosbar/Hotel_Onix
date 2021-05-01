@@ -20,13 +20,12 @@ body {
   color: rgba(0,0,0,0.7);
 }
 .formulario__input, .formulario__label, .formulario__submit {
-  
   display: block;
   width: 100%;
   font-size: 1.3em;
 }
 .formulario__input {
-    padding: 20px;
+  padding: 20px;
   background: rgba(0,0,0,0.1);
   border: 1px solid rgba(0,0,0,0.3);
   margin-bottom: 40px;
@@ -54,58 +53,9 @@ body {
 }
 
 
-
-
-
-
-.oscurecer {
-  filter: brightness(60%);
-}
-
-.sobre {
-  filter: brightness(110%);
-  position:absolute;
-  top:80px;
-  left:250px;
-  border:none;
- }
- .boton {
-  filter: brightness(110%);
-  position:absolute;
-  top:350px;
-  left:550px;
-  border:none;
- }
- .sobre2 {
-  filter: brightness(140%);
-  position:absolute;
-  top: 650px;0px;
-  left:950px;
-  border:none;
- }
- .sobre3 {
-  filter: brightness(140%);
-  position:absolute;
-  top: 650px;0px;
-  left:950px;
-  border:none;
- }
- .sobre_habitaciones {
-  filter: brightness(110%);
-  position:absolute;
-  top:210px;
-  left:0px;
-  border:none;
- }
- 
- .red-input:focus {
-  background: yellow;
-  color: red;
-}
-
-.blue-input:focus {
-  background: yellow;
-  color: blue;
+.fijar {
+  margin-top: -135px;
+  color: blueviolet;
 }
 
 
