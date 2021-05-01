@@ -87,20 +87,7 @@
     }
 </style>
 
-<script>
 
-    var input = document.getElementsByClassName('formulario__input');
-    for (var i = 0; i < input.length; i++) {
-        input[i].addEventListener('keyup', function () {
-            if (this.value.length >= 1) {
-                this.nextElementSibling.classlist.add('fijar');
-            } else {
-                this.nextElementSibling.classlist.remove('fijar');
-            }
-        });
-    }
-
-</script>
 
 
 
@@ -122,8 +109,25 @@
         <input type="text" class="formulario__input">
         <label for="" class="formulario__label">Mensaje</label>
         <input type="submit" class="formulario__submit">
+<<<<<<< HEAD
+    </form>
+    <script>
+        var inputs = document.getElementsByClassName('formulario__input');
+        for (var i = 0; i < inputs.length; i++) {
+            inputs[i].addEventListener('keyup', function () {
+                if (this.value.length >= 1) {
+                    this.nextElementSibling.classList.add('fijar');
+                } else {
+                    this.nextElementSibling.classList.remove('fijar');
+                }
+            });
+        }
+    
+    </script>
+=======
       </form>
 
+>>>>>>> 3b87ddc1f64c1df86532c0878d11ba332b6df19a
 </body>
 
 </html>
