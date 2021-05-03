@@ -134,36 +134,6 @@ $("#btn8").click(function () {
 });
 
 
-function formulario() {
-  var Nombres = document.getElementById("Nombres").value
-  var Correo = document.getElementById("Correo").value
-  var Telefono = document.getElementById("Telefono").value
-  var Mensaje = document.getElementById("Mensaje").value
-
-
-  if (Nombres != "" && Correo != "" && Telefono != "" && Mensaje != "") {
-    $("#btn2").click(function () {
-
-      Swal.fire({
-        type: 'success',
-        title: '¡Perfecto!',
-        text: 'Su información ha sido enviada correctamente',
-      });
-    });
-  }
-  else {
-
-    Swal.fire({
-      icon: 'error',
-      title: 'Ha ocurrido un error!',
-      text: 'Por favor ingrese todos los datos',
-      footer: '<a href>No ha sido posible enviar su información</a>'
-
-    })
-
-
-  }
-}
 
 $("#btn7").click(function () {
   Swal.mixin({
