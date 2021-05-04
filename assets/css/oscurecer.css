@@ -87,7 +87,11 @@ body {
   border:none;
  }
  .brillo {
-  filter: brightness(100%);
+  filter: brightness(110%);
+  
+ }
+ .oscurecer {
+  filter: brightness(50%);
   
  }
  .sobre_habitaciones {

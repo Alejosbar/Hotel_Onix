@@ -18,7 +18,7 @@ $("#btn2").click(function () {
   Swal.fire({
     type: 'success',
     title: 'Éxito',
-    text: '¡Perfecto!',
+    text: '¡Perfectos!',
   });
 });
 
