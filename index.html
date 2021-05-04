@@ -63,41 +63,42 @@
                 <label for="" class="formulario__label"></label>
                 <input id="Mensaje" type="text" placeholder="Mensaje" class="formulario__input">
                 <label for="" class="formulario__label"></label>
-                <input onclick="formulario()" id="btn2" type="button" class="formulario__submit bg-primary" value="Enviara">
+                <input onclick="formulario()" id="btn2" type="button" class="formulario__submit bg-primary" value="Enviar">
+                <script src="assets/js/jquery-3.6.0.min.js"></script>
+                <script src="assets/js/sweetalert2.all.min.js"></script>
                 <script src="assets/js/formulario.js"></script>
             </form><br><br>
 
-    <div id="HotelOnix" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-            <li data-target="#HotelOnix" data-slide-to="0" class="active"></li>
-            <li data-target="#HotelOnix" data-slide-to="1"></li>
-            <li data-target="#HotelOnix" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-            <div class="oscurecer carousel-item active">
-                <img src="assets/img/roma-actividad-visita-guiada-noche-vista-aerea.jpg" class="d-block w-100"
-                    alt="...">
-            </div>
-            <div class="oscurecer carousel-item">
-                <img src="assets/img/carrouselh4.jpg" class="d-block w-100" alt="...">
-            </div>
-            <div class="oscurecer carousel-item">
-                <img src="assets/img/carrousel2.jpg" class="d-block w-100" alt="...">
-            </div>
-        </div>
-        <a class="carousel-control-prev" href="#HotelOnix" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#HotelOnix" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
-
-        <img class="col-7 sobre d-flex" src="assets/img/logo-onix-1.png" alt="" height="300px">
-        <script src="assets/js/formulario.js"></script>
-
-    </div><br><br>
+            <div id="HotelOnix" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#HotelOnix" data-slide-to="0" class="active"></li>
+                    <li data-target="#HotelOnix" data-slide-to="1"></li>
+                    <li data-target="#HotelOnix" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="oscurecer carousel-item active">
+                        <img src="assets/img/roma-actividad-visita-guiada-noche-vista-aerea.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="oscurecer carousel-item">
+                        <img src="assets/img/carrouselh4.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="oscurecer carousel-item">
+                        <img src="assets/img/carrousel2.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#HotelOnix" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#HotelOnix" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+                
+                <img class="logo_onix sobre col-7 d-flex" src="assets/img/logo-onix-1.png" alt="" height="300px" >      
+                    
+           
+            </div><br><br>
 
 
 
@@ -158,61 +159,66 @@
     </div><br><br>
 
 
-    </header>
-    <div class="container">
-    <section>
-        <div id="Habitaciones">
-            <h1 class="text-primary">
-                Habitaciones
-            </h1>
-        </div>
-        <div class="card-group">
-            <div class="card">
-                <img src="assets/img/4.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <div id="colapso1" class="collapse">
-                        <div class="card card-body">
-                            <h5 class="card-title text-center">Habitación Doble</h5>
-                            <p class="text-justify">
-                                Amplias, luminosas, agradables y confortables habitaciones desde 15m2.
+        </header>
+        <script src="assets/js/jquery-3.6.0.min.js"></script>
+        <script src="assets/js/popper.min.js"></script>
+        <script src="assets/js/bootstrap.js"></script>
+        <section>
+            <div id="Habitaciones">
+                <h1 class="text-primary">
+                    Habitaciones
+                </h1>
+            </div>
+            <div class="card-group">
+                <div class="card">
+                    <img src="assets/img/4.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <div id="colapso1" class="collapse">
+                            <div class="card card-body">
+                                <h5 class="card-title text-center">Habitación Doble</h5>
+                                <p class="text-justify">
+                                    Amplias, luminosas, agradables y confortables habitaciones desde 15m2.
                                     Disponibles con dos camas individuales o cama de matrimonio (bajo petición al llegar al Hotel).
                                     Equipadas con los servicios e instalaciones que necesitas para hacer de tu estancia la mejor de todas.
-                            </p>
+                                </p>
+                            </div>
                         </div>
                     </div>
                     <button class="sobre_habitaciones btn btn-primary" type="button" data-toggle="collapse"
                         data-target="#colapso1" aria-expanded="false" aria-controls="collapseExample">Habitación
                         Doble</button>
                 </div>
-            </div>
-            <div class="card">
-                <img src="assets/img/dobleconterraza.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <div id="colapso2" class="collapse">
-                        <div class="card card-body">
-                            <h5 class="card-title text-center">Habitación Con Terraza</h5>
-                            <p class="text-justify">
-                                Amplias, luminosas, agradables y confortables habitaciones de 23 m2 y con vistas a La Gran Vía. 
-                                Disponibles con dos camas individuales o cama de matrimonio (bajo petición al llegar al Hotel). 
-                            </p>
+                <div class="card">
+                    <img src="assets/img/cambio.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <div id="colapso2" class="collapse">
+                            <div class="card card-body">
+                                <h5 class="card-title text-center">Habitación Con Terraza</h5>
+                                <p class="text-justify">
+                                    Amplias, luminosas, agradables y confortables habitaciones de 23 m2 y con vistas a La Gran Vía. 
+                                    Disponibles con dos camas individuales o cama de matrimonio (bajo petición al llegar al Hotel). 
+                                
+                                </p>
+                            </div>
                         </div>
                     </div>
                     <button class="sobre_habitaciones btn btn-primary" type="button" data-toggle="collapse"
                         data-target="#colapso2" aria-expanded="false" aria-controls="collapseExample">Habitación Con
                         Terraza</button>
                 </div>
-            </div>
-            <div class="card">
-                <img src="assets/img/triple.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <div id="colapso3" class="collapse">
-                        <div class="card card-body">
-                            <h5 class="card-title text-center">Habitación Triple</h5>
-                            <p class="text-justify">
-                                Amplias, luminosas y confortables habitaciones desde 15 m2 y con capacidad para 3 adultos.
-                                Disponibles con tres camas individuales, TV LCD de 32'', conexión gratuita a Internet (WIFI) de alta velocidad  y baño completo.
-                                Equipadas con los servicios e instalaciones que necesitas para hacer de tu estancia en el Hotel Onix una experiencia inolvidable.
-                            </p>
+                <div class="card">
+                    <img src="assets/img/triple.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <div id="colapso3" class="collapse">
+                            <div class="card card-body">
+                                <h5 class="card-title text-center">Habitación Triple</h5>
+                                <p class="text-justify">
+                                    Amplias, luminosas y confortables habitaciones desde 15 m2 y con capacidad para 3 adultos.
+                                    Disponibles con tres camas individuales, TV LCD de 32'', conexión gratuita a Internet (WIFI) de alta velocidad  y baño completo.
+                                    Equipadas con los servicios e instalaciones que necesitas para hacer de tu estancia en el Hotel Onix una experiencia inolvidable.
+                                    
+                                </p>
+                            </div>
                         </div>
                     </div>
                     <button class="sobre_habitaciones btn btn-primary" type="button" data-toggle="collapse"
