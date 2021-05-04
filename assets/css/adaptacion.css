@@ -1,9 +1,9 @@
 @media (min-width: 0px) and (max-width: 576px)
 {
   .logo_onix{
-    top:50px;
+    top:20px;
     left:100px;
-    height:100px;
+    height:180px;
   }
 }
 @media (min-width: 577px) and (max-width: 768px)

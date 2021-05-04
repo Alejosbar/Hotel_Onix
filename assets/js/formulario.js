@@ -161,8 +161,6 @@ function formulario() {
 
     })
     return;
-
-
   }
 }
 
