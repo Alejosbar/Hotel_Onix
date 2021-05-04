@@ -160,6 +160,7 @@ function formulario() {
       footer: '<a href>No ha sido posible enviar su información</a>'
 
     })
+    return;
 
 
   }

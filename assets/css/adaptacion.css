@@ -1,0 +1,43 @@
+@media (min-width: 0px) and (max-width: 576px)
+{
+  .logo_onix{
+    top:50px;
+    left:100px;
+    height:100px;
+  }
+}
+@media (min-width: 577px) and (max-width: 768px)
+{
+  .logo_onix{
+    top:60px;
+    left:120px;
+    height:150px;
+    
+
+  }
+}
+@media (min-width: 769px) and (max-width: 992px)
+{
+  .logo_onix{
+    top:150px;
+    left:160px;
+    height:150px;
+  }
+}
+@media (min-width: 993px) and (max-width: 1200px)
+{
+  .logo_onix{
+    top:150px;
+    left:160px;
+    height:150px;
+  }
+}
+@media (min-width: 1201px) 
+{
+  .logo_onix{
+    top:150px;
+    left:160px;
+    height:150px;
+  }
+}
+
