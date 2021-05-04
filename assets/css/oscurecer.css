@@ -91,7 +91,7 @@ body {
   
  }
  .oscurecer {
-  filter: brightness(50%);
+  filter: brightness(65%);
   
  }
  .sobre_habitaciones {
@@ -112,7 +112,9 @@ body {
   color: blue;
 }
 
-
+.tarjeta{
+  top:80px;
+}
 .navbar-nav.navbar-center {
   position: absolute;
   left: 50%;
