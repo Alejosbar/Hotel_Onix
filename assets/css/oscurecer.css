@@ -59,14 +59,14 @@ body {
 
 }
 .sobre {
-  filter: brightness(110%);
+  filter: brightness(140%);
   position:absolute;
   top:80px;
   left:250px;
   border:none;
  }
  .boton {
-  filter: brightness(110%);
+  filter: brightness(100%);
   position:absolute;
   top:350px;
   left:550px;
@@ -87,7 +87,7 @@ body {
   border:none;
  }
  .brillo {
-  filter: brightness(140%);
+  filter: brightness(100%);
   
  }
  .sobre_habitaciones {
